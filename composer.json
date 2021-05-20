@@ -1,0 +1,21 @@
+{
+    "name": "fzytest.cn/test",
+    "description": "fzy的测试compsoer包",
+    "type": "l",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "fzy",
+            "email": "15951357193@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Siam\\" : "src/siam"
+        }
+    }
+}
